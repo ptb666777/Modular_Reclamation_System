@@ -1,0 +1,16 @@
+Role: Targeted high-value and hazardous material triage and retrieval.
+
+Key Function: Extracts intact, functional components (e.g., chips, sensors) and isolated hazardous contaminants (e.g., concentrated Americium).
+
+Method: Uses precision robotic arms and tools based on the Scout's DSM data.
+
+
+v.2
+
+The Snatcher Unit (High-Value Retriever: $\text{P}$ Collector) 🦝The Snatcher is highly articulated and focused on surgical precision to harvest **Potential ($\text{P}$) **—intact, high-value, or high-hazard items.
+
+Specification Aspect,Detail & T_Net Rationale
+Chassis/Mobility,Heavy Tracked Manipulator: High-stability chassis to manage unbalanced loads. Features one primary heavy-lift arm and a secondary articulated inspection arm.
+Core Function,Triage Retrieval: Uses DSM data to locate targets. The grab mechanism includes light suction/spray nozzles for a preliminary light cleaning to prevent immediate transfer of loose hazardous residue.
+Inspection/Data,"On-the-Fly Inspection: Secondary arm with high-resolution visual/IR cameras, XRF element spot-checker, and a simple continuity/short-check circuit tester. Rationale: Confirms P (value) and Di (hazard profile) before committing to transfer."
+Transfer Vessel,"Deposits directly into the HVIC (Class 1) or the SUHP (Class 7) vessels, which are transported immediately by a Mover Unit."

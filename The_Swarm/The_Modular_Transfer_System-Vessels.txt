@@ -1,0 +1,12 @@
+🚚 The Modular Transfer System (K.I.S.S. Principle)
+By standardizing the 'mover' and specializing the 'vessel,' you gain several critical advantages:
+
+Reduced Fleet Size: You only need a few durable, multi-purpose movers (chassis, engine, tracks/wheels). This saves capital, maintenance, and training costs.
+
+Minimized Cross-Contamination: A dedicated vessel for metals, another for high-density plastics, and a sealed tank for extracted leachate ensures that the materials remain clean from the point of retrieval to the point of processing.
+
+Increased Uptime: If a vessel is full, the mover doesn't wait; it drops the full vessel, hooks up an empty one, and returns to the retrieval area. The full vessel waits safely at the processing area. If a mover breaks down, any vessel can be retrieved by any other working mover. This is maximum operational redundancy.
+
+Simplified Maintenance: Maintenance teams only need to stock parts for one or two standardized mover chassis, not a dozen specialized vehicles.
+
+This concept mirrors modern logistics, like container shipping, where the same truck (mover) hauls many different types of standardized, specialized containers (vessels).

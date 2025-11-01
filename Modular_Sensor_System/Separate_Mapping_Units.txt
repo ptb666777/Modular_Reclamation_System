@@ -1,0 +1,19 @@
+🗺️ Viability of Separate Mapping Units
+Yes, this strategy is not only viable but essential for a complex environment like a landfill. It creates a three-tiered sensing and action hierarchy:
+
+Macro-Level Mapping: A separate, fast unit (the "Scout") maps the area.
+
+Micro-Level Sorting: The "Worm" unit focuses only on eating and separating.
+
+Targeted Retrieval: A third unit (the "Snatcher") retrieves high-value items based on the map.
+
+Current Capabilities in Surface Scanning
+We have come very far in surface and sub-surface non-invasive scanning technologies that can create the kind of layered map you need.
+
+Technology,What It Detects,How It Helps Your Project
+Ground-Penetrating Radar (GPR),"Subsurface layers, voids, buried metallic/plastic objects, and moisture pockets.",Creates a 3D map of the landfill's density and structure. Essential for identifying high-density areas (metal concentrations) and dangerous voids/water pockets for the Worm to avoid.
+Airborne/Drone LiDAR,Highly precise surface topography and visible object mapping.,Tracks the progress of the operation and provides accurate coordinates for material deposits and processing zones.
+Hyperspectral Imaging,"Unique chemical and material ""signatures"" based on light reflection (e.g., specific plastics, organics, exposed metal).","A powerful, fast-scan tool to identify exposed valuable materials on the current surface layer."
+Magnetometers,Ferrous (iron-containing) metal concentrations.,"Fast, large-area scanning to identify major metal scrap veins for bulk retrieval prioritization."
+Gamma-Ray Spectrometers,Low-level radioactive material (like the Americium-241 in smoke detectors).,"Crucial for safety. Identifies high-concentration ""hot spots"" that the Worm must avoid, allowing the specialized containment unit to handle them."
+

@@ -1,0 +1,7 @@
+The Fixer Unit (Support & Resilience: $\text{K}*$ Maintenance) 🩹The Fixer is the dedicated support and $\text{K}*$ maintenance unit, ensuring the system's Coherence and Self-Sufficiency.
+
+Specification Aspect,Detail & T_Net Rationale
+Chassis/Mobility,Heavy-Duty ARV (Armored Recovery Vehicle) Chassis: Extremely powerful engine and winch system for towing capabilities (major breakdown recovery).
+Core Functions,"1. Towing/Recovery: Tows disabled Worm segments or Mover Units back to the Manufacturing Hub. 2. On-Site Outfitting/Repair: Has a large articulated arm and internal inventory bays stocked with common reclaimed parts (motors, wires, seals)."
+Logistics Support,Battery/Vessel Swaps: The primary unit responsible for performing battery swaps on the Scout's landing station and Mover breakdown battery swaps to minimize P loss (downtime).
+Repair Inventory,"Inventory Bay Node: Functions as a decentralized inventory node, tracking the parts it carries. Can pull and install pre-printed or reclaimed Worm segments or Mover modules quickly."

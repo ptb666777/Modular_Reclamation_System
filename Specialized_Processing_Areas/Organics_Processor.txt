@@ -1,0 +1,3 @@
+Function: Handles biodegradable waste (diapers, food scraps, yard waste).
+
+Process: Anaerobic Digestion (AD) converts organic slurry into two main products: Biogas ($\text{CH}_4$) and Digestate/Biochar.

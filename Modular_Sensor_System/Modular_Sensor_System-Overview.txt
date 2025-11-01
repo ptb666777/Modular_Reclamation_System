@@ -1,0 +1,22 @@
+🚀 The Proposed Modular Sensor System
+
+By offloading the sensor work, you simplify the "Worm's" design, reducing its cost, complexity, and failure points.
+
+1. The "Scout" Unit (The Mapper)
+Role: Rapid, non-contact, large-area surveying.
+Sensor Suite: Primarily GPR, Hyperspectral Imaging, and Magnetometers.
+Output: Generates a Digital Site Map (DSM) for the operations network. This map flags:
+"Go Zones": Areas clear for efficient "Worm" digestion.
+"Avoid Zones": High-concentration leachate, major metal/hazardous clusters.
+"Target Zones": Areas with a high likelihood of valuable intact components (based on metal/electronic signatures).
+
+2. The "Worm" Unit (The Eater)
+Role: Consumption, fine-grain sorting, and material separation.
+Sensor Suite (Reduced): Small, close-range sensors only.
+Proximity Sensors: For navigation and collision avoidance.
+Conveyor-Belt $\text{XRF}$/Optical Scanners: Placed inside the digestive tract for the final, detailed verification of materials (e.g., verifying plastic resin type or metal alloy).
+
+3. The "Snatcher" Unit (The Retriever)
+Role: Targeted recovery of high-value components and hazardous materials.
+Action: It uses the "Target Zones" coordinates from the Scout's map. It is equipped with precision robotic arms and tools (like industrial vacuum-lift cups or specialized pincers) and its own small-scale $\text{3D}$ vision system to execute the component Triage you described earlier.
+

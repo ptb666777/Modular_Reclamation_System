@@ -1,0 +1,5 @@
+Function: Manages, filters, and purifies the toxic liquid leachate from the landfill.
+
+Process: Uses chemical precipitation, advanced filtration (e.g., reverse osmosis), and thermal treatment to isolate and stabilize pollutants.
+
+Output: Clean water and a small volume of highly concentrated, secured toxic sludge.

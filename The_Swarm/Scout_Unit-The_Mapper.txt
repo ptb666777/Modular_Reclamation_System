@@ -1,0 +1,20 @@
+Role: Large-area, non-contact surveying and 3D subsurface mapping.
+
+Key Function: Generates a Digital Site Map (DSM) using GPR, Hyperspectral Imaging, and Magnetometers.
+
+Output: "Go Zones" for the Worm, "Target Zones" for the Snatcher, and "Avoid Zones" (high contamination/voids).
+
+v.2
+
+1. The Scout Unit (Airborne Vision: $\text{Di}_{\text{G}}$) 🚁The Scout is a dedicated unmanned aerial vehicle ($\text{UAV}$) optimized for surveillance and high-resolution mapping.
+
+Specification Aspect,Detail & T_Net Rationale
+Form Factor/Mobility,"Multi-Rotor UAV: Optimized for stable flight, high-altitude surveillance, and rapid descent for closer scans. Constraint: No landing gear for ground movement."
+Power/Logistics,Standardized Swappable Battery: Uses the Universal LFP Battery Modules (recycled/repurposed cells). Logistics: Returns to an Automated Battery Swap Station (part of the Manufacturing Hub) for zero-downtime service.
+Core Sensors,"DiG​ Array: High-resolution RGB camera, Hyperspectral Imager (HSI), and Airborne Magnetometer/Ground Penetrating Radar (GPR) emitters. Note: The heavy GPR receivers are located on the ground on fixed masts, relying on the airborne emitter for triangulation."
+Operational Scope,"Topographical Survey & Security: Generates the DSM and acts as an immediate Coherence Monitor (K∗) for large-area events (plumes, fires, uncontained spills)."
+
+v.3
+
+The Scout Unit (Airborne Vision: $\text{Di}_{\text{G}}$) 🚁Your assumptions regarding air traffic control (ATC) are accurate. Low Altitude operations are key for independence.Altitude Constraint: In the U.S., unmanned aircraft systems (1$\text{UAS}$) generally require 2$\text{ATC}$ authorization for operations above 3$400$ feet above ground level (4$\text{AGL}$) or in controlled airspace.5 Operating well below this threshold allows for Visual Line of Sight ($\text{VLOS}$) operations with minimal regulatory contact.Revised Role: The Scout will perform Low-Altitude Topographical Mapping (under $200$ feet $\text{AGL}$). This is sufficient to get topographical data and monitor a large Visual Coherence ($\text{K}*$) area without high-altitude concerns or extensive communication protocols.Sensor Tweak: The heavy GPR emitters remain on the Scout, but the receivers are lightweight and dispersed on the ground or housed in the Worm/Snatcher units.
+

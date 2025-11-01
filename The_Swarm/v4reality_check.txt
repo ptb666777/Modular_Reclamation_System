@@ -1,0 +1,7 @@
+Unit,Accepted Modification,Role
+Worm Unit,Substituted LCH4​ for Bio-Fuel Hybrid Generator (Refueled by Mover).,Primary resource extractor/classifier.
+Snatcher Unit,Dry Retrieval Only for HVIC (Class 1). Seals SUHP (Class 7) without field cleaning.,Surgical retrieval of high-value/high-hazard items.
+Mover Unit,"Now transports three specialized vessels: Bulk Tanker, Bio-Fuel Tanker, and Battery Pack Carrier.",Primary decentralized logistics node and Eq enforcer.
+Heavy Recovery Vehicle (HRV),"New Specialized Unit. Large crane/winch, flatbed.",Dedicated Major Breakdown Recovery and heavy Worm segment swaps.
+
+With these critical adjustments, the system is robust, decentralized, cost-conscious, and ethically compliant.

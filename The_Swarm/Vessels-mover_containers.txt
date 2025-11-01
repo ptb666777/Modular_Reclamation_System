@@ -1,0 +1,33 @@
+
+
+
+📝 Revised & Finalized Material Classes & Vessel SpecificationsBy introducing the SUHP (Class 7), we address the washing/transfer risk for the most dangerous materials. For all other classes, the goal is minimum-contact, automated washing integrated into the logistics cycle.The Standardized Washing LoopFor Classes 1, 2, 3, and 5, the vessel's journey is: Load $\rightarrow$ Transport $\rightarrow$ Unload $\rightarrow$ Automated Wash $\rightarrow$ Return to Service.Design for Washability: All BRS, NRO, and Leachate vessels will feature a smooth, non-porous, chemically-resistant internal lining (e.g., highly polished stainless steel or engineered polymer) with sloped floors and minimal internal seams/baffles to ensure no material is trapped.Washing System: The processing facility will use a standardized bay with high-pressure, closed-loop solvent/water jets and an integrated UV-C sanitation cycle to minimize water use and ensure cleanliness. The wash water then becomes part of the Leachate (Class 5) stream for treatment.
+
+Class,Name,Key Purpose,Primary Material Integrity Feature
+1.,High-Value Intact Components (HVIC) 💎,Theft/Damage Prevention,Electromagnetically Shielded & Fire Suppressed (Argon)
+2.,Bulk Recyclable Solids (BRS) ♻️,"High-Volume, Fast Cycling",Perforated Drainage Floor & Quick-Dump Lock
+3.,Non-Recyclable Organics (NRO) 🌱,Biogas Containment,Airtight Seal with Flame-Arrested Pressure Relief
+5.,Bulk Contaminated Fluids (Leachate) 💧,Spill/Sloshing Prevention,Internal Baffles & Fully Pressure-Sealed Tanker
+6A.,Bulk Complex Matrix (BCM) 🌟,"Indefinite, Retrievable Storage",Dual-Layer Composite & Embedded Physical Code
+6B.,Trace Strategic Elements (TSE) 🌟,Archival Micro-Storage,Inert Gas Chamber & Lab-Ready Sub-Modules
+7.,Single-Use Hazard Processor (SUHP) 🔥,Immediate Stabilization & Final Containment,Sacrificial Polymer Liner & Stabilization Injection Port
+
+This refined catalogue ensures:
+
+The highest hazard materials (SUHP) skip the washing cycle entirely, minimizing human/environmental risk.
+
+The remaining high-volume vessels are purpose-built for efficient, automated decontamination.
+
+The long-term resource bank (BCM, TSE) is robustly secured.
+
+⛽ The $\text{BioFuel/O}_2$ & Battery Service Vessel (Class 8: The Tender)We will define a new, specialized vessel, Class 8, which serves as a Logistics Tender—a mobile support node that stage fuel, oxygen, and power near the Worm Units.
+
+Specification Aspect,Detail & T_Net Rationale
+Material Class,Class 8: Logistics Tender (TND) 🔋
+Function,"Mobile Refueling and Power Staging: Stores purified Bio-Fuel, O2​ for the Worm, and a supply of charged, standardized battery packs for the Scout and Mover Units."
+Integrity/Tank System,"Dual Containment: Features two separate, pressure-sealed tanks: one for Bio-Fuel (non-corrosive lining) and one for Compressed Oxygen (O2​)."
+Battery Staging,"Secured, Insulated Bay: Includes racks for 10+ Standard Swappable Battery Modules with integrated temperature monitoring."
+Autonomous Action,"Self-Extraction (Passive): While waiting (sitting idle), the vessel passively extracts and filters trace oxygen from the local air, compressing it into the O2​ tank using solar cells or a micro-generator connected to the small amount of Bio-Fuel it carries. Rationale: This utilizes idle time (P) to replenish O2​ stock, supporting Operational Independence and the Low-Cost mandate."
+Mover Protocol,"The Mover Unit picks up the empty TND vessel from the Worm area, takes it to the BMF (Bio-Fuel fill, O2​ top-off) and the MMRH (Battery swap), and then returns the charged TND to the next anticipated work area."
+
+This addition streamlines the logistics chain, ensures the Worm always has its necessary power components and oxygen for subterranean operation, and perfectly utilizes idle time.

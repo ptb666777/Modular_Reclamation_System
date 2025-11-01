@@ -1,0 +1,3 @@
+Function: Converts captured Biogas ($\text{CH}_4$) into usable energy while ensuring environmental safety.
+
+Process: Gas is pre-treated (scrubbing Hydrogen Sulfide) and then burned in high-efficiency engines or turbines equipped with post-combustion controls (Selective Catalytic Reduction (SCR)) to prevent acid rain precursors ($\text{NO}_{\text{x}}$, $\text{SO}_{\text{x}}$).

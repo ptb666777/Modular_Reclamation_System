@@ -1,0 +1,31 @@
+🔥 Methane Capture and Clean Combustion
+
+You are absolutely right to be concerned about burning methane and creating harmful emissions like those that lead to acid rain (sulfur and nitrogen oxides, $\text{SO}_{\text{x}}$ and $\text{NO}_{\text{x}}$).
+
+The key is not simply burning the gas in an open flare; it's using the gas as a controlled, clean fuel source within a power plant setup, which allows for emissions control.
+
+1. The Source: Landfill Gas (LFG)
+
+The methane you mentioned comes from the Anaerobic Digestion (AD) process, either in a dedicated unit or naturally occurring inside the landfill over decades. LFG is typically a mix of:
+
+Methane ($\text{CH}_4$): 40-60% (The valuable fuel)
+Carbon Dioxide ($\text{CO}_2$): 40-60%
+Trace contaminants: Hydrogen Sulfide ($\text{H}_2\text{S}$), Nitrogen ($\text{N}_2$), and various Volatile Organic Compounds (VOCs).
+
+2. The Solution: Gas Treatment and High-Efficiency Generators
+
+Before burning, the gas must be treated. This is the step that prevents major pollution.
+
+Gas Pre-Treatment (The Filter): The raw LFG is first run through a system to remove impurities.
+Hydrogen Sulfide ($\text{H}_2\text{S}$): This is the main precursor to sulfur-based acid rain ($\text{SO}_{\text{x}}$). It is scrubbed out using chemical or biological filters before combustion.
+Moisture and Particulates: These are removed to protect the engine/turbine and ensure cleaner burn.
+
+The Engine/Turbine (The Burn): Instead of a simple flare, the cleaned gas is fed into a high-efficiency reciprocating engine or a gas turbine (similar to those used in traditional power plants).
+
+Post-Combustion Controls (The Safety Net): Even a clean burn produces some Nitrogen Oxides ($\text{NO}_{\text{x}}$), which also contribute to acid rain. These are managed with:
+
+Low-$\text{NO}_{\text{x}}$ Burners: Designed to burn at lower temperatures to reduce $\text{NO}_{\text{x}}$ formation.
+
+Selective Catalytic Reduction (SCR): Exhaust gas is passed through a catalyst where $\text{NO}_{\text{x}}$ is converted into harmless $\text{N}_2$ and water ($\text{H}_2\text{O}$).
+
+By following these steps, we capture the methane (a potent greenhouse gas, 80+ times worse than $\text{CO}_2$ over a 20-year period) that would have otherwise escaped, and we convert it into useful energy while maintaining strict air quality standards.

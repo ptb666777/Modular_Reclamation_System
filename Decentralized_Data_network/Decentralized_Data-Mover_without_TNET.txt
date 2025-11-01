@@ -1,0 +1,39 @@
+🧭 Decentralized Data & Sensor Requirements for Mover Units
+The two Mover Units and the seven specialized vessels must be equipped with sensors that allow for independent, real-time verification and decision-making, fulfilling the "one node fails, the rest continues" ethos.
+
+I. Mover Chassis Core Node Requirements
+Each of the two Mover Units operates as an autonomous node, constantly broadcasting its status and intended actions.
+
+Sensor/Data Point,Purpose in Decentralized System,Priority & Action
+Real-Time Kinematic (RTK-GPS),"Provides centimeter-level position accuracy for path planning, collision avoidance, and precise automated vessel docking/drop-off.",High Priority: Essential for collision avoidance and maintaining the tight cycle times required by only two Mover Units.
+Chassis Load Cells & CoG Monitor,"Provides instant payload mass verification and dynamic Center of Gravity calculation. Autonomous Decision: If CoG exceeds safe parameters for a route segment (e.g., incline), the Mover stops and broadcasts a Route Hold to other nodes.",High Priority: Safety (Environmental Neutrality) and Efficiency (Cost Control).
+Node Health Monitor,"Self-diagnostic system monitoring actuator health, power consumption, and thermal signature. If local parameters drop below a threshold, the Mover initiates an Automated Return-to-Hub (Resource Security - Self-Sufficiency).",High Priority: System Resilience/Redundancy.
+Multi-Spectrum Environmental Sniffer,Detects volatile organic compounds (VOCs) and CH4​ along the route and at the dock. Used for on-the-fly route diversion if a plume is detected (Environmental Neutrality).,Medium Priority: Route Optimization/Safety.
+
+II. Vessel-Specific Verification Sensors (Local Integrity)
+Each vessel must carry sensors to prove its own integrity to the Mover Unit and the processing facility node, eliminating reliance on a central system for "trust."
+
+A. Containment & Hazard Verification (Classes 3, 5, 7)
+
+Vessel Class,Critical Local Sensor Requirement,Purpose & Ethos Alignment
+3. NRO (Organics),Methane (CH$_4$) & CO2​ Sensor Array at the flame-arrested vent.,Confirms gas is being safely vented. Data used for the Methane Sequestration valuation metric. (Environmental Neutrality)
+5. Leachate (Fluids),Internal Fluid Level & Pressure Transducers in the baffles.,Verifies volume for accurate tonnage metric and confirms the vessel is not being over-pressurized by chemical reactions. (Toxin Reduction/Resource Tonnage)
+7. SUHP (Hazard Processor),"Chemical Fixative Confirmation Sensor (e.g., Ultrasonic or Viscosity meter) within the stabilization port.",Verifies the physical state change of the contents before transit. Essential for Zero Net Negative impact. (Toxin Reduction)
+
+B. Inventory & Accountability Verification (Classes 1, 6A, 6B)
+
+Vessel Class,Critical Local Sensor Requirement,Purpose & Ethos Alignment
+1. HVIC (Intact Components),Tamper-Evident Seal & Internal Shock/Vibration Sensor.,Ensures integrity during the direct transfer. Any breach or excessive shock logs an immediate System Alert requiring immediate quarantine (Resource Security).
+6A. BCM (Bulk Complex Matrix),Physical Etched QR Code Scanner Interface (non-electronic) for immutable ID.,Allows the Mover Unit (or future retrieval robot) to verify the vessel ID without relying on an electronic database for long-term archival. (Resource Security)
+6B. TSE (Trace Strategic Elements),Internal Temperature & Humidity Logger.,Ensures the inert gas environment is maintained for material longevity and future resource potential. (Resource Security)
+
+III. Decentralized Communications & Logic
+Since there is no "Nexus," coordination between the two Mover Units, the Worm, and the Processing Hubs relies on a simple, robust protocol:
+
+Broadcast and Listen: All nodes (Mechs, Movers, Hubs) continuously broadcast their Status (Available/Busy/Error) and Demand (I need vessel X, I am ready to receive vessel Y).
+
+Autonomous Scheduling: The Mover Unit operates on a simple, autonomous scheduling algorithm: It prioritizes the Highest Priority Material (SUHP/HVIC) demand, then the Highest Volume Need (BRS/NRO), and finally, the Tonnage-Metric Need (Leachate/BCM).
+
+Collision Resolution: If both Movers identify the same highest priority task, the conflict is resolved based on proximity, minimizing travel distance to ensure low operational cost.
+
+This approach ensures the two Mover Units work at maximum efficiency, driven by real-time localized data and a non-profit-maximizing prioritization schedule.

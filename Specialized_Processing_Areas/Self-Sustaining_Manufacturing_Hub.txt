@@ -1,0 +1,3 @@
+Function: Closes the resource loop by repairing and building swarm components internally.
+
+Process: Utilizes recovered and refined metals and plastics as feedstock for integrated $\text{3D}$ printers, casting, and injection molding units.

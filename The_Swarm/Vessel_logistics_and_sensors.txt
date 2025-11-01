@@ -1,0 +1,29 @@
+I. Vessel Verification & Containment Integrity (Safety & Cost)
+The Mover Unit must confirm the vessel is safe to transport before moving. This eliminates costly spills and unnecessary decontamination.
+
+Sensor/Data Point,Location,Purpose & Operational Impact
+1. Vessel Type & ID Scan,Mover Unit: Docking Arm; Vessel: Exterior,Confirms correct pairing and material classification. The Mover will refuse power if a Leachate (Class 5) vessel is being loaded onto a route designated for BRS (Class 2). (Error Reduction/Cost Control)
+2. Seal Integrity (Pressure/Vacuum),"Vessel: All Vented Ports (NRO, Leachate, SUHP)",Verifies hermetic seal or pressure differential. Alerts if the NRO's biogas vent is malfunctioning or if the Leachate tank is leaking. (Safety/Containment)
+3. Mass & Center of Gravity (CoG),Mover Unit: Suspension/Chassis Load Cells,"Dynamic weight calculation. Crucial for non-profit margins (ensures maximum payload utilization) and safety (prevents rollovers, especially for high-density SUHP/TSE loads)."
+4. External Surface Radiation/VOC Scan,Mover Unit: Docking Bay (automated sprayers/sniffers),"Post-load, pre-transit safety check. Ensures the exterior of the vessel is not contaminated, providing a final safety check for the high-hazard classes (SUHP/TSE). (Safety/Transparency)"
+
+II. Automated High-Value & High-Hazard Transfer Protocol
+The HVIC (Class 1) is now a direct-to-processing transfer, and the SUHP (Class 7) requires its own fail-safe data chain.
+
+A. High-Value Intact Components (HVIC - Class 1)
+Logistics Simplification: The Snatcher Unit retrieves the HVIC and immediately deposits it into a dedicated, secure HVIC Transfer Station. The Mover Unit retrieves the sealed HVIC vessel from this station and takes it directly to the secure Processing Facility.
+
+Chain-of-Custody Data: The vessel's RFID/GPS beacon (already specified) logs the moment of transfer station pickup and facility drop-off, providing an unbroken, electronic chain. This is the only "security" layer needed, as it relies on data auditability, not physical guards.
+
+B. Single-Use Hazard Processor (SUHP - Class 7)
+The SUHP uses a single-cycle protocol to eliminate re-washing and secondary handling.
+
+Critical Data Point: Fixative Confirmation: The vessel must log the volume, chemical composition, and timestamp of the stabilizing agent injected. The Mover Unit will not transport the SUHP until this data point is validated, confirming the contents are chemically inert/stabilized for final archival.
+
+III. The Transparency Log (The Scar in the Public Eye)
+To meet your goal of using the reclamation as a visible statement, the transport data feeds a separate, auditable public API.
+
+Real-Time Map Data: The Mover Unit's GPS/RTK position is constantly logged. This provides the exact route and cycle time, which feeds the efficiency model (cost control) and the public visualization ("Where are the toxic resources moving right now?").
+
+Vessel Content Summary: The public log shows a generalized summary of the vessel's contents (e.g., "Bulk Complex Matrix - 95% Volume," not the full chemical assay) and its Destination Vault Coordinates (X/Y/Z). This links the Visible Scar (the open reclamation pit) to the Resource Bank (the final, sealed archive).
+
